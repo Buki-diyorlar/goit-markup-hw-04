@@ -428,8 +428,8 @@ button {
 }
 
 /* Dördüncü bölümdeki p etiketlerine %100 yükseklik ve genişlik eklendi */
-.fourth-content, 
-.fourth-text {
+p.fourth-content, 
+p.fourth-text {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -561,11 +561,11 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-item-link:hover {
+a.footer-social-item-link:hover {
     background-color: #31d0aa;
 }
 
-.footer-social-item-link:focus {
+a.footer-social-item-link:focus {
     background-color: #31d0aa;
 }
 
