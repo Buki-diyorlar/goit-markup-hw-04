@@ -429,9 +429,9 @@ button {
 
 /* Dördüncü bölümdeki p etiketlerine %100 yükseklik ve genişlik eklendi */
 p.fourth-text {
+    position: absolute;
     height: 100%;
     width: 100%;
-    position: absolute;
     top: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -445,10 +445,10 @@ p.fourth-text {
 }
 
 p.fourth-content {
-    height: 100%;
-    width: 100%;
     position: absolute;
     top: 0;
+    height: 100%;
+    width: 100%;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
